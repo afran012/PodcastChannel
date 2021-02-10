@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    top: 0.0001%;
+    flex-direction: column;
+    background: #FFFFFF;
+    z-index: 1;
+}
+
+
+
+
+.logo{
+    margin: 0.63rem;
+    margin-left: 5%;
+
+    max-width: 7.5%;
+    height: 0.4%;
+}

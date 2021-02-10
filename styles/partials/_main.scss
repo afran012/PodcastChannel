@@ -1,0 +1,237 @@
+/*
+Initial greeting
+*/
+
+.introduction {
+
+    margin-top: 1.81rem;
+    margin-bottom: 2.25rem;
+}
+
+.greeting{
+    margin: 1rem;
+    margin-bottom: 0rem;
+
+}
+
+main{
+    display: flexbox;
+    section.greeting {
+        article{
+
+            h1{
+
+                font-family: 'font-1';
+                max-width: 13.88rem;
+                font-size: 2.25rem;
+                color: #060A24;
+                letter-spacing: 0;
+                line-height: 42px;
+                margin-bottom: 1rem;
+                span::before{
+                    content: " ";
+                }
+                span::after{
+                    content: " ";
+                }
+                span{
+                    text-decoration-line: line-through;
+                }
+        }
+        p{
+            font-family: 'font-2';
+            font-size: 14px;
+            color: #060A24;
+            letter-spacing: 0;
+            line-height: 22px;
+        }
+    }
+    }
+}
+
+a.btn-greet{
+    padding: 5.3rem;
+    padding-top: 0.81rem;
+    padding-bottom: 0.81rem;
+    font-family: 'font-3';
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    background: #00F3BB;
+
+
+}   
+
+
+/*
+Podcast Section
+*/
+
+
+
+
+
+.podcast{
+    padding-top: 4rem;
+    background-image:linear-gradient(175deg, transparent 5%, #0000FF 0%, #0000A3 74%, transparent 61%); 
+}
+
+
+
+
+
+
+
+.all-pods {
+    display: grid;
+    margin: 1rem;
+    grid-template-rows: 7% 14.06rem 14.06rem 14.06rem 14.06rem 46.3%;
+    row-gap: 1rem;
+
+}
+
+
+.art-pod {
+    margin: 1rem;
+}
+
+
+.pod-title {
+    grid-row: 1;
+    font-family: 'font-1';
+    padding-top: 11%;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 42px;
+
+   
+}
+
+
+.img-phone {
+    padding-top: 3rem;
+    width: 100%;    
+
+}
+
+/** 
+DE DONDE VENIMOS
+*/
+
+.where-we {
+    display: grid;
+    grid-template-rows: 2% 7% ;
+    row-gap: 1rem;
+}
+
+.we-title {
+    font-family: 'font-1';
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+
+section.where-we p{
+    font-family: 'font-2';
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+
+}
+
+/*
+INVITADOS
+*/
+
+.guests {
+    display: grid;
+    grid-template-rows: 2% 2% 2% 2% 2% 2% 2% ;
+    row-gap: 1rem;
+}
+
+section.guests article img {
+    width: 100%;   
+}
+
+section.guests h1 {
+    font-family: 'font-1';
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+
+}
+
+
+/*
+TEMAS
+*/
+
+.our-themes {
+
+    display: grid;
+    grid-template-rows: 2% 2% 2% 2% 2% 2% 2% 2% 2%;
+    row-gap: 1rem;
+}
+
+section.our-themes h1 {
+    font-family: 'font-1';
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+
+section.our-themes h2 {
+    font-family: 'font-4';
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+
+/* 
+NOTICIAS
+*/
+
+.news {
+
+    display: grid;
+    grid-template-rows: 2% 2%;
+    width: 100%;
+    padding-top: 5rem;
+    height: 10rem;
+
+    background-image:linear-gradient(175deg, transparent 26%, #0000FF 28%); 
+}
+
+section.news h1 {
+    font-family: 'font-1';
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 42px;
+}
+
+section.news a {
+
+    font-family: 'font-3';
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+
+}
+
+
+
+
+
