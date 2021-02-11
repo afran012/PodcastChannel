@@ -1,8 +1,30 @@
+.f-pod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 footer.f-pod h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
     font-family: 'font-2';
     font-size: 14px;
     color: #060A24;
     letter-spacing: 0;
     line-height: 22px;
-
 }
+
+.img-fontawsome {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+
+
+

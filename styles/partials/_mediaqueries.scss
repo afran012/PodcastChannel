@@ -1,0 +1,68 @@
+@media screen and (min-width: 750px){
+
+    .logo{
+        margin-left: 6.25rem;
+        
+    }
+    #btn-nav {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: auto;
+        flex-direction: row;
+        background: #FFFFFF;
+
+    }
+    
+    .header {
+        grid-template-columns: 50% 50%;
+    }
+
+    .menu_items{
+        width: 100%;
+        height: 100%;
+        background: #FFFFFF;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        color: #060A24;
+      }
+      .menu-space{
+          
+        margin: 1rem;
+        overflow: hidden;
+        margin-right: 1rem;
+    
+    }
+
+    /*
+    SALUDO
+    */
+    main section.greeting article h1 {
+        max-width: 30rem;
+        align-self: flex-start;
+        
+    }
+    .greeting {
+        margin-top: 4rem;
+        margin-left: 12rem;
+    }
+
+    a.btn-greet{
+        right: 1%;
+        align-self: flex-start;
+    }
+
+    main section.greeting article h1 {
+        max-width: 30rem;
+        
+    }
+
+
+
+
+}
