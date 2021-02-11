@@ -15,8 +15,12 @@ Initial greeting
 }
 
 main{
-    display: flexbox;
     section.greeting {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
         article{
 
             h1{
@@ -75,7 +79,7 @@ Podcast Section
 
 .podcast{
     padding-top: 4rem;
-    background-image:linear-gradient(175deg, transparent 5%, #0000FF 0%, #0000A3 74%, transparent 61%); 
+    background-image:linear-gradient(175deg, transparent 4%, #0000FF 4.2%, #0000A3 62%, transparent 62.3%); 
 }
 
 
@@ -87,7 +91,7 @@ Podcast Section
 .all-pods {
     display: grid;
     margin: 1rem;
-    grid-template-rows: 7% 14.06rem 14.06rem 14.06rem 14.06rem 46.3%;
+    grid-template-rows: auto;
     row-gap: 1rem;
 
 }
@@ -111,23 +115,36 @@ Podcast Section
 }
 
 
+
+
+
+section.podcast {
+    
+    overflow: hidden;
+
+}
+
+
+
+
+/** 
+DE DONDE VENIMOS
+*/
+
 .img-phone {
     padding-top: 3rem;
     width: 100%;    
 
 }
 
-/** 
-DE DONDE VENIMOS
-*/
-
 .where-we {
     display: grid;
-    grid-template-rows: 2% 7% ;
+    grid-template-rows: auto;
     row-gap: 1rem;
 }
 
 .we-title {
+    padding-bottom: 1rem;
     font-family: 'font-1';
     font-size: 36px;
     color: #060A24;
@@ -141,6 +158,7 @@ section.where-we p{
     color: #060A24;
     letter-spacing: 0;
     line-height: 22px;
+    padding-bottom: 1rem;
 
 }
 
@@ -149,9 +167,12 @@ INVITADOS
 */
 
 .guests {
+    overflow: hidden;
+}
+.art-guests {
     display: grid;
-    grid-template-rows: 2% 2% 2% 2% 2% 2% 2% ;
-    row-gap: 1rem;
+    grid-template-rows: auto;
+    
 }
 
 section.guests article img {
@@ -159,6 +180,8 @@ section.guests article img {
 }
 
 section.guests h1 {
+    padding-top: 15%;
+    padding: 1rem;
     font-family: 'font-1';
     font-size: 36px;
     color: #060A24;
@@ -173,13 +196,26 @@ TEMAS
 */
 
 .our-themes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 1rem;
+
+
+}
+.grid-ot {
 
     display: grid;
-    grid-template-rows: 2% 2% 2% 2% 2% 2% 2% 2% 2%;
-    row-gap: 1rem;
+    grid-template-rows: auto;
+    row-gap: 1%;
+    
 }
 
 section.our-themes h1 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    justify-self: flex-start;
     font-family: 'font-1';
     font-size: 36px;
     color: #060A24;
@@ -188,11 +224,16 @@ section.our-themes h1 {
 }
 
 section.our-themes h2 {
+    padding: 1rem;
     font-family: 'font-4';
     font-size: 24px;
     color: #060A24;
     letter-spacing: 0;
     text-align: center;
+}
+
+section.our-themes img {
+    justify-self: center;
 }
 
 
@@ -202,16 +243,19 @@ NOTICIAS
 
 .news {
 
-    display: grid;
-    grid-template-rows: 2% 2%;
     width: 100%;
     padding-top: 5rem;
-    height: 10rem;
-
+    height: 10%;
     background-image:linear-gradient(175deg, transparent 26%, #0000FF 28%); 
 }
+article.art-news {
+    display: flex;
+    flex-direction: column;
+}
+
 
 section.news h1 {
+    margin-top: 6rem;
     font-family: 'font-1';
     font-size: 36px;
     color: #FFFFFF;
@@ -230,6 +274,33 @@ section.news a {
     line-height: 22px;
 
 }
+
+a.btn-news{
+    align-self: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 3rem;
+    margin-top: 2.25rem;
+    margin-bottom: 4.19rem;
+
+
+
+
+
+    font-family: 'font-3';
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    text-justify: center;
+    line-height: 22px;
+    background: #00F3BB;
+
+
+}   
 
 
 
