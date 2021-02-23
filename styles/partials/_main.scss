@@ -16,30 +16,30 @@ Initial greeting
 
 main{
     section.greeting {
-        display: flex;
-        flex-direction: column;
+        /*display: flex;
+        flex-direction: column;/*
         align-items: center;
         justify-content: center;
-        overflow: hidden;
+        overflow: hidden;*/
+        height: auto;
         article{
 
             h1{
 
                 font-family: 'font-1';
                 max-width: 13.88rem;
-                font-size: 2.25rem;
+                font-size: 36px;
                 color: #060A24;
                 letter-spacing: 0;
                 line-height: 42px;
                 margin-bottom: 1rem;
-                span::before{
-                    content: " ";
-                }
-                span::after{
-                    content: " ";
-                }
-                span{
+                span.span-world::before{
+                    content: "world";
                     text-decoration-line: line-through;
+                }
+                span.span-dot::after{
+                    content: ".";
+                    color: #000000;
                 }
         }
         p{
@@ -64,9 +64,18 @@ a.btn-greet{
     text-align: center;
     line-height: 22px;
     background: #00F3BB;
+    text-align: center;
+    text-justify: center;
 
 
 }   
+
+a.btn-greet:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #FFFFFF;
+}
+
+
 
 
 /*
@@ -301,6 +310,12 @@ a.btn-news{
 
 
 }   
+
+a.btn-news:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #FFFFFF;
+}
+
 
 
 
