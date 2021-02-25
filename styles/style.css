@@ -92,6 +92,12 @@ a.btn-greet {
 .body {
   /*max-width: 100%;
     /*height: 300rem;*/
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
 }
 
 .header {
@@ -552,13 +558,13 @@ footer.f-pod section.img-fontawsome a {
   color: #060A24;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   main section.greeting article p::before {
     content: "Un podcast que explora el mundo de la programación.";
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   main section.greeting article p::before {
     content: "El portal de podcasts que explora el mundo de la programación y la tecnología.";
   }
@@ -659,8 +665,8 @@ footer.f-pod section.img-fontawsome a {
     display: -ms-grid;
     display: grid;
     margin-top: 4rem;
-    -ms-grid-rows: 2% 17% 17% 68%;
-        grid-template-rows: 2% 17% 17% 68%;
+    -ms-grid-rows: 5% 17% 17% 68%;
+        grid-template-rows: 5% 17% 17% 68%;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     gap: 4.5rem;
