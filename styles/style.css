@@ -508,6 +508,9 @@ a.btn-news:hover {
 }
 
 .f-pod {
+  justify-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
