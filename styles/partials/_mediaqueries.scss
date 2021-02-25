@@ -1,12 +1,12 @@
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 800px){
     main section.greeting article p::before{
         content: "Un podcast que explora el mundo de la programación.";
     }
 
 }
 
-@media screen and (min-width: 760px){
+@media screen and (min-width:800px){
 
     main section.greeting article p::before{
         content: "El portal de podcasts que explora el mundo de la programación y la tecnología.";
