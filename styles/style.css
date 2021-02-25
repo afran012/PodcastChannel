@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* Navigation Bar */
 @font-face {
-  src: url(/);
   src: url(../assets/fonts/IBMPlexMono-ExtraLight.ttf);
   font-family: 'nabvar-1';
 }
@@ -660,8 +659,8 @@ footer.f-pod section.img-fontawsome a {
     display: -ms-grid;
     display: grid;
     margin-top: 4rem;
-    -ms-grid-rows: 0% 17% 17% 68%;
-        grid-template-rows: 0% 17% 17% 68%;
+    -ms-grid-rows: 2% 17% 17% 68%;
+        grid-template-rows: 2% 17% 17% 68%;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     gap: 4.5rem;
@@ -676,10 +675,10 @@ footer.f-pod section.img-fontawsome a {
   div.all-pods article {
     margin-top: 1rem;
     -ms-grid-row: 1;
-    -ms-grid-row-span: 2;
+    -ms-grid-row-span: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
-    grid-area: 1 / 1 / 3 / 2;
+    grid-area: 1 / 1 / 2 / 2;
     -ms-grid-column-align: center;
         justify-self: center;
     -ms-flex-item-align: start;
