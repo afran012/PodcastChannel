@@ -15,23 +15,15 @@ Initial greeting
 }
 
 main{
+
     section.greeting {
-        /*display: flex;
-        flex-direction: column;/*
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;*/
-        height: auto;
+        h1{
+            display: none;
+        }
         article{
-
-            h1{
-
-                font-family: 'font-1';
+            h2{
+                @extend %font-h1-greeting;
                 max-width: 13.88rem;
-                font-size: 36px;
-                color: #060A24;
-                letter-spacing: 0;
-                line-height: 42px;
                 margin-bottom: 1rem;
                 span.span-world::before{
                     content: "world";
@@ -39,31 +31,21 @@ main{
                 }
                 span.span-dot::after{
                     content: ".";
-                    color: #000000;
                 }
         }
         p{
-            font-family: 'font-2';
-            font-size: 14px;
-            color: #060A24;
-            letter-spacing: 0;
-            line-height: 22px;
+            @extend %font-p-greeting;
         }
+
     }
     }
 }
 
 a.btn-greet{
+    @extend %btn-greet;
     padding: 5.3rem;
     padding-top: 0.81rem;
     padding-bottom: 0.81rem;
-    font-family: 'font-3';
-    font-size: 16px;
-    color: #060A24;
-    letter-spacing: 0;
-    text-align: center;
-    line-height: 22px;
-    background: #00F3BB;
     text-align: center;
     text-justify: center;
 
@@ -82,8 +64,9 @@ a.btn-greet:hover{
 Podcast Section
 */
 
-
-
+section.podcast h1 {
+    display: none;
+}
 
 
 .podcast{
@@ -91,18 +74,12 @@ Podcast Section
     background-image:linear-gradient(175deg, transparent 4%, #0000FF 4.2%, #0000A3 62%, transparent 62.3%); 
 }
 
-
-
-
-
-
-
 .all-pods {
+    max-width: 90%;
     display: grid;
     margin: 1rem;
     grid-template-rows: auto;
     row-gap: 1rem;
-
 }
 
 
@@ -113,32 +90,21 @@ Podcast Section
 
 .pod-title {
     grid-row: 1;
-    font-family: 'font-1';
-    padding-top: 11%;
-    font-size: 36px;
-    color: #FFFFFF;
-    letter-spacing: 0;
-    line-height: 42px;
-
-   
+    @extend %pod-title;   
 }
 
-
-
-
-
-section.podcast {
-    
+section.podcast {    
     overflow: hidden;
-
 }
-
-
 
 
 /** 
 DE DONDE VENIMOS
 */
+
+section.where-we h2{
+    display: none;
+}
 
 .img-phone {
     padding-top: 3rem;
@@ -154,11 +120,7 @@ DE DONDE VENIMOS
 
 .we-title {
     padding-bottom: 1rem;
-    font-family: 'font-1';
-    font-size: 36px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 42px;
+    @extend %we-title;
 }
 
 section.where-we p{
@@ -175,6 +137,10 @@ section.where-we p{
 INVITADOS
 */
 
+section.guests h1 {
+    display: none;
+}
+
 .guests {
     overflow: hidden;
 }
@@ -188,14 +154,11 @@ section.guests article img {
     width: 100%;   
 }
 
-section.guests h1 {
+section.guests h2 {
     padding-top: 15%;
     padding: 1rem;
-    font-family: 'font-1';
-    font-size: 36px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 42px;
+    @extend %we-title;
+
 
 }
 
@@ -221,18 +184,16 @@ TEMAS
     
 }
 
-section.our-themes h1 {
+section.our-themes h2 {
     padding-top: 3rem;
     padding-bottom: 2rem;
     justify-self: flex-start;
-    font-family: 'font-1';
-    font-size: 36px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 42px;
+    @extend %we-title;
+    
+
 }
 
-section.our-themes h2 {
+section.our-themes h3 {
     padding: 1rem;
     font-family: 'font-4';
     font-size: 24px;
@@ -294,18 +255,8 @@ a.btn-news{
     height: 3rem;
     margin-top: 2.25rem;
     margin-bottom: 4.19rem;
-
-
-
-
-
-    font-family: 'font-3';
-    font-size: 16px;
-    color: #060A24;
-    letter-spacing: 0;
     text-align: center;
     text-justify: center;
-    line-height: 22px;
     background: #00F3BB;
 
 

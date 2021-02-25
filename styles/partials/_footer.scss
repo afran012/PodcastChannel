@@ -18,10 +18,19 @@ footer.f-pod h1 {
 }
 
 .img-fontawsome {
+    text-decoration: none;
+    color: #060A24;
     display: flex;
     margin-bottom: 2rem;
     width: 100%;
     justify-content: space-evenly;
+}
+
+footer.f-pod section.img-fontawsome a {
+
+    text-decoration: none;
+    color: #060A24;
+
 }
 
 
