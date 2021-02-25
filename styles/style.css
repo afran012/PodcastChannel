@@ -229,7 +229,7 @@ Initial greeting
   margin-bottom: 0rem;
 }
 
-main section.greeting h1 {
+main section.greeting h6 {
   display: none;
 }
 
@@ -264,7 +264,35 @@ a.btn-greet:hover {
 /*
 Podcast Section
 */
-section.podcast h1 {
+.pod-1 {
+  width: 100%;
+  /*frameborder:0;
+    allowtransparency="true"
+    */
+}
+
+.pod-2 {
+  width: 100%;
+  /*frameborder:0;
+    allowtransparency="true"
+    */
+}
+
+.pod-3 {
+  width: 100%;
+  /*frameborder:0;
+    allowtransparency="true"
+    */
+}
+
+.pod-4 {
+  width: 100%;
+  /*frameborder:0;
+    allowtransparency="true"
+    */
+}
+
+section.podcast h6 {
   display: none;
 }
 
@@ -332,7 +360,7 @@ section.where-we p {
 /*
 INVITADOS
 */
-section.guests h1 {
+section.guests h6 {
   display: none;
 }
 
@@ -359,6 +387,10 @@ section.guests h2 {
 /*
 TEMAS
 */
+section.our-themes h6 {
+  display: none;
+}
+
 .our-themes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -421,7 +453,11 @@ article.art-news {
           flex-direction: column;
 }
 
-section.news h1 {
+section.news h6 {
+  display: none;
+}
+
+section.news h2 {
   margin-top: 6rem;
   font-family: 'font-1';
   font-size: 36px;
@@ -482,6 +518,10 @@ a.btn-news:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+footer.f-pod h6 {
+  display: none;
 }
 
 footer.f-pod h1 {
@@ -870,7 +910,7 @@ footer.f-pod section.img-fontawsome a {
     grid-area: 3 / 4 / 4 / 5;
   }
   /*NEWS*/
-  section.news h1 {
+  section.news h2 {
     font-size: 48px;
   }
   section.news a {

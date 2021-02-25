@@ -17,7 +17,7 @@ Initial greeting
 main{
 
     section.greeting {
-        h1{
+        h6{
             display: none;
         }
         article{
@@ -64,7 +64,39 @@ a.btn-greet:hover{
 Podcast Section
 */
 
-section.podcast h1 {
+.pod-1 {
+
+    width: 100%;
+    /*frameborder:0;
+    allowtransparency="true"
+    */
+}
+
+.pod-2 {
+
+    width: 100%;
+    /*frameborder:0;
+    allowtransparency="true"
+    */
+}
+
+.pod-3 {
+
+    width: 100%;
+    /*frameborder:0;
+    allowtransparency="true"
+    */
+}
+
+.pod-4 {
+
+    width: 100%;
+    /*frameborder:0;
+    allowtransparency="true"
+    */
+}
+
+section.podcast h6 {
     display: none;
 }
 
@@ -137,7 +169,7 @@ section.where-we p{
 INVITADOS
 */
 
-section.guests h1 {
+section.guests h6 {
     display: none;
 }
 
@@ -166,6 +198,9 @@ section.guests h2 {
 /*
 TEMAS
 */
+section.our-themes h6{
+    display: none;
+}
 
 .our-themes {
     display: flex;
@@ -223,8 +258,10 @@ article.art-news {
     flex-direction: column;
 }
 
-
-section.news h1 {
+section.news h6 {
+    display: none;
+}
+section.news h2 {
     margin-top: 6rem;
     font-family: 'font-1';
     font-size: 36px;
