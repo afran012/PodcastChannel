@@ -1,15 +1,16 @@
 /* Navigation Bar */
 
 @font-face{
-    src: url(/assets/fonts/IBMPlexMono-ExtraLight.ttf);
+    src: url(/);
+    src: url(../assets/fonts/IBMPlexMono-ExtraLight.ttf);
     font-family: 'nabvar-1';
 }
 @font-face{
-    src: url(/assets/fonts/IBMPlexMono-Medium.ttf);
+    src: url(../assets/fonts/IBMPlexMono-Medium.ttf);
     font-family: 'nabvar-2';
 }
 @font-face{
-    src: url(/assets/fonts/IBMPlexMono-Regular.ttf);
+    src: url(../assets/fonts/IBMPlexMono-Regular.ttf);
     font-family: 'nabvar-3';
 }
 
@@ -17,18 +18,18 @@
 
 
 @font-face{
-    src: url(/assets/fonts/IBMPlexSans-Light.ttf);
+    src: url(../assets/fonts/IBMPlexSans-Light.ttf);
     font-family: 'font-1';
 }
 @font-face{
-    src: url(/assets/fonts/IBMPlexMono-Light.ttf);
+    src: url(../assets/fonts/IBMPlexMono-Light.ttf);
     font-family: 'font-2';
 }
 @font-face{
-    src: url(/assets/fonts/IBMPlexMono-Medium.ttf);
+    src: url(../assets/fonts/IBMPlexMono-Medium.ttf);
     font-family: 'font-3';
 }
 @font-face{
-    src: url(/assets/fonts/IBMPlexSans-SemiBold.ttf);
+    src: url(../assets/fonts/IBMPlexSans-SemiBold.ttf);
     font-family: 'font-4';
 }
